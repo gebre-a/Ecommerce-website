@@ -71,6 +71,15 @@ const products = [
     description:
       "1080p HD webcam with auto-focus and built-in microphone. Ideal for video calls and streaming.",
   },
+  {
+    id: 9,
+    name: "External Hard Drive",
+    price: 119.99,
+    image:
+      "https://images.unsplash.com/photo-1587825140708-dfaf72ae4b04?w=500&h=500&fit=crop",
+    description:
+      "2TB external hard drive with fast data transfer speeds. Perfect for backups and extra storage.", 
+  },
 ];
 
 export function getProducts() {
