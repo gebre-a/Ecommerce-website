@@ -4,11 +4,13 @@ import Checkout from './page/Checkout'
 import Navbar from './components/Navbar'
 
 import './App.css'
+import  AuthContextProvider  from './context/AuthContextProvider'
 import { Routes, Route } from 'react-router-dom'
 function App() {
  
 
   return (
+  <AuthContextProvider>
     <div className="app">
       <Navbar />
       <Routes>
@@ -17,6 +19,7 @@ function App() {
         <Route path='/checkout' element={<Checkout />} />
       </Routes>
     </div>
+    </AuthContextProvider>
   )
 }
 
