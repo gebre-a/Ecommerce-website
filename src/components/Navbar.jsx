@@ -17,7 +17,7 @@ const Navbar = () => {
                 <Link to="/auth" className="btn btn-primary">Login</Link>
                 <Link to="/auth" className="btn btn-secondary">signup</Link>
             </div> : (<div className='navbar-user'>
-                <span className='navbar-greeting'>Hello, {user.email}</span>
+                <span className='navbar-greeting'>Hello,wellcome</span>
                 <button className='btn btn-secondary' onClick={logout}>Logout</button>
                 </div>)}
          </div> 
